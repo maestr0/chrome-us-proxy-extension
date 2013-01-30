@@ -5,7 +5,7 @@ chrome.proxy.settings.set({
 		mode: "pac_script",
 		pacScript: {
 			//url: "https://mediahint.com/default.pac"
-			url:"https://raw.github.com/maestr0/chrome-us-proxy-extension/master/default.pac"
+			url:"https://raw.github.com/maestr0/chrome-us-proxy-extension/master/default_test.pac"
 		}
 	},
 	scope: "regular"

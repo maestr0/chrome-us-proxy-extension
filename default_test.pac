@@ -1,8 +1,8 @@
 function FindProxyForURL(url, host) {
 	if (Math.random() > 0.5) {
-		proxy = 'PROXY 165.225.138.135:80; PROXY 165.225.136.212:80';
+		proxy = 'PROXY 165.225.131.153:80; PROXY 165.225.130.193:80';
 	} else {
-		proxy = 'PROXY 165.225.136.212:80; PROXY 165.225.138.135:80';
+		proxy = 'PROXY 165.225.130.193:80; PROXY 165.225.131.153:80';
 	}
 	if ((host == 'localhost') || (shExpMatch(host, 'localhost.*')) || (shExpMatch(host, '*.local')) || (host == '127.0.0.1')) {
 		return 'DIRECT';
